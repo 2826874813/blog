@@ -1,0 +1,1 @@
+var posts=["2023/10/09/hello-world/","2023/10/15/vue3指令/","2023/10/15/备忘录/"];function toRandomPost(){pjax.loadUrl('/'+posts[Math.floor(Math.random() * posts.length)]);};
